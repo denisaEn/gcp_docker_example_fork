@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/gcp_docker_example_fork/testing', '.']
+  args: ['build', '-t', 'gcr.io/project=dtumlops-374512/testing', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/gcp_docker_example_fork/testing']
+  args: ['push', 'gcr.io/project=dtumlops-374512/testing']
